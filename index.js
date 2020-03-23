@@ -4,12 +4,12 @@
 //  of the passed-in array using Array.prototype.forEach():
 
 function doToElementsInArray(array, changeCompletely) {
-  // array.forEach(changeCompletely)
+  array.forEach(changeCompletely)
 }
 
 // changeCompletely() is defined
 // changeCompletely() alters every element in an array when used in conjunction with
 // Array.prototype.forEach()
 function changeCompletely(element, index, array) {
-  // return (`Mmmm, ${element}!!!`)
+  array[index] = `Mmmm, ${element}!!!`
 }
