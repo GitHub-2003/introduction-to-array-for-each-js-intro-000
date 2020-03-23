@@ -5,6 +5,7 @@
 
 function doToElementsInArray(array, changeCompletely) {
   array.forEach(changeCompletely)
+  console.log(array)
 }
 
 // changeCompletely() is defined
