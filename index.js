@@ -11,6 +11,5 @@ function doToElementsInArray(array, changeCompletely) {
 // changeCompletely() alters every element in an array when used in conjunction with
 // Array.prototype.forEach()
 function changeCompletely(element, index, array) {
-  console.log(array)
   // return (`Mmmm, ${element}!!!`)
 }
