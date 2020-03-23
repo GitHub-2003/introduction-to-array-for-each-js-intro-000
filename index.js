@@ -4,11 +4,7 @@
 //  of the passed-in array using Array.prototype.forEach():
 
 function doToElementsInArray(array, changeCompletely) {
-  console.log("\n***1:  ", array)
-  console.log("\n")
   array.forEach(changeCompletely)
-  console.log("\n***2:  ", array)
-
 }
 
 // changeCompletely() is defined
