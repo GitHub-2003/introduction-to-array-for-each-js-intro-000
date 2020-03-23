@@ -4,7 +4,7 @@
 //  of the passed-in array using Array.prototype.forEach():
 
 function doToElementsInArray(array, changeCompletely) {
-  array.forEach(changeCompletely)
+  // array.forEach(changeCompletely)
 }
 
 // changeCompletely() is defined
